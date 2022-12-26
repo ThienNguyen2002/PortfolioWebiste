@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'NovaMono';
+    src: url(..\fonts\NovaMono-Regular.ttf) format('truetype');
+}
+body{
+    margin:0;
+    height: 100vh;
+    background: rgba(232, 227, 214,.75);
+
+}
+h1 {
+    font-family: 'NovaMono';
+    font-size: 5rem;
+    text-decoration: none;
+}
+p {
+    font-family: 'NovaMono';
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+h1, p {
+    text-align: center;
+    line-height: 150%;
+    margin: 0 10%;
+    padding: 0;
+    color: rgb(9, 12, 8);
+  }
+
+ 

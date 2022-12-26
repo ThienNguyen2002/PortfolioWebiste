@@ -1,20 +1,11 @@
-let lines = document.querySelectorAll("line");
+const backButton = document.querySelector(".back-button");
 
-fillSvglines();
+backButton.addEventListener("click", function (event) {
+  event.preventDefault(); // prevent the link from navigating away from the page
 
-document.addEventListener("scroll", fillSvglines);
-
-function fillSvglines() {
-  let scrollPercentage =
-    (document.documentElement.scrollTop + document.body.scrollTop) /
-    (document.documentElement.scrollHeight -
-      document.documentElement.clientHeight);
-
-  for (var i = 0; i < lines.length; i++) {
-    let line = lines[i];
-    let lineLength = line.getTotalLength();
-    line.style.strokeDasharray = lineLength;
-    line.style.strokeDashoffset = lineLength;
-    line.style.strokeDashoffset = lineLength - scrollPercentage * lineLength;
-  }
-}
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});

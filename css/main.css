@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'NovaMono';
     src: url(..\fonts\NovaMono-Regular.ttf) format('truetype');
@@ -54,6 +55,7 @@ svg {
     display: inline-block;
     overflow: hidden;
     z-index: 1;
+    width: 100%;
   }
   a h1::after{
     content: '';
@@ -92,3 +94,5 @@ a h1{
   display: inline-block;
 
 }
+
+

@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'NovaMono-Regular';
-  src: url(fonts/NovaMono-Regular.ttf) format('truetype'),
-  url(fonts/NovaMono-Regular.woff) format('woff');
+  src: url(../fonts/NovaMono-Regular.ttf) format('truetype'),
+  url(../fonts/NovaMono-Regular.woff) format('woff');
 }
 
 

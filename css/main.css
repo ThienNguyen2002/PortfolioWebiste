@@ -1,8 +1,9 @@
-
 @font-face {
-    font-family: 'NovaMono';
-    src: url(..\fonts\NovaMono-Regular.ttf) format('truetype');
+  font-family: 'NovaMono';
+  src: url(/fonts/NovaMono-Regular.ttf) format('truetype');
 }
+
+
 body{
     margin:0;
     height: 100vh;
@@ -73,11 +74,6 @@ svg {
     transform: scaleX(1);
   }
 
-
-
-
-
-  
     section:nth-of-type(1) {
         background: rgba(232, 227, 214,.75);
         

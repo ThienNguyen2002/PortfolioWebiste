@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'NovaMono';
+  src: url(/fonts/NovaMono-Regular.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: rgba(147, 101, 98, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: 'NovaMono';
+  font-size: 5rem;
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: rgb(9, 12, 8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  width: 50%;
+  text-align: center;
+  margin: 0 120px;
+}
+
+#back-button {
+  font-family: 'NovaMono';
+  font-size: 2rem;
+  text-decoration: none;
+  text-align: center;
+  line-height: 150%;
+  margin: 2.5% 5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  background-color: rgba(147, 101, 98, 0.75);
+  color: rgb(9, 12, 8);
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+#back-button::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background-color: rgb(9, 12, 8);
+  transform: scaleX(0);
+  transform-origin: 50% 50%;
+  transition: transform 0.75s ease-in-out;
+}
+
+#back-button:hover::after {
+  transform: scaleX(1);
+}

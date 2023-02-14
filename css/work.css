@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'NovaMono-Regular';
-  src: url(/fonts/NovaMono-Regular.ttf) format('truetype'),
-  url(/fonts/NovaMono-Regular.woff) format('woff');
+  src: url(fonts/NovaMono-Regular.ttf) format('truetype'),
+  url(fonts/NovaMono-Regular.woff) format('woff');
 }
 
 html {
@@ -13,7 +13,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  font-family: 'NovaMono-Regular';
+  font-family: 'NovaMono-Regular', monospace;
   line-height: 1.5;
   background-color: rgba(210, 165, 137, 0.75);
 }
@@ -70,7 +70,7 @@ article {
 }
 
 #back-button {
-  font-family: 'NovaMono-Regular';
+  font-family: 'NovaMono-Regular', monospace;
   font-size: 2rem;
   text-decoration: none;
   text-align: center;

@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'NovaMono-Regular';
-  src: url(/fonts/NovaMono-Regular.ttf) format('truetype'),
-  url(/fonts/NovaMono-Regular.woff) format('woff');
+  src: url(fonts/NovaMono-Regular.ttf) format('truetype'),
+  url(fonts/NovaMono-Regular.woff) format('woff');
 }
 
 body {
@@ -10,12 +10,12 @@ body {
   background: rgba(232, 227, 214, 0.75);
 }
 h1 {
-  font-family: 'NovaMono-Regular';
+  font-family: 'NovaMono-Regular', monospace;
   font-size: 5rem;
   text-decoration: none;
 }
 p {
-  font-family: 'NovaMono-Regular';
+  font-family: 'NovaMono-Regular', monospace;
   font-size: 2rem;
   text-decoration: none;
 }
@@ -30,7 +30,7 @@ p {
 }
 
 #back-button {
-    font-family: 'NovaMono-Regular';
+    font-family: 'NovaMono-Regular', monospace;
     font-size: 2rem;
     text-decoration: none;
     text-align: center;

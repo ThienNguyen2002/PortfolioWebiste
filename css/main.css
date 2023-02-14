@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'NovaMono';
-  src: url(fonts/NovaMono-Regular.ttf) format('truetype'),
-  url(fonts/NovaMono-Regular.woff) format('woff');
+  font-family: 'NovaMono-Regular';
+  src: url(/fonts/NovaMono-Regular.ttf) format('truetype'),
+  url(/fonts/NovaMono-Regular.woff) format('woff');
 }
 
 
@@ -39,7 +39,7 @@ svg {
     display: grid;
     place-content: center;
     text-align: center;
-    font-family: 'NovaMono';
+    font-family: 'NovaMono-Regular';
     font-size: 5rem;
     text-decoration: none;
   }

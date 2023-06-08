@@ -92,19 +92,50 @@ a h1 {
 }
 
 /* Responsive styles */
-@media only screen and (max-width: 1024px) {
+
+/* Custom styles for small phones */
+@media only screen and (max-width: 320px) {
   section {
-    font-size: 4rem;
+    font-size: 1.25rem;
   }
   svg {
-    transform: scale(1.5);
+    transform: scale(2.3);
   }
   svg line {
-    stroke-width: 4;
+    stroke-width: 6;
 
   }
 }
 
+/* Custom styles for medium phones */
+@media only screen and (max-width: 375px) {
+  section {
+    font-size: 1.5rem;
+  }
+  svg {
+    transform: scale(2.1);
+  }
+  svg line {
+    stroke-width: 6;
+
+  }
+}
+
+/* Custom styles for large phones */
+@media only screen and (max-width: 425px) {
+  section {
+    font-size: 2rem;
+  }
+  svg {
+    transform: scale(1.9);
+  }
+  svg line {
+    stroke-width: 6;
+
+  }
+}
+
+/* Custom styles for tablets */
 @media only screen and (max-width: 768px) {
   section {
     font-size: 3rem;
@@ -118,15 +149,17 @@ a h1 {
   }
 }
 
-@media only screen and (max-width: 480px) {
+/* Custom styles for large tablets and small laptops */
+@media only screen and (max-width: 1024px) {
   section {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   svg {
-    transform: scale(1.9);
+    transform: scale(1.5);
   }
   svg line {
-    stroke-width: 6;
+    stroke-width: 4;
 
   }
 }
+
